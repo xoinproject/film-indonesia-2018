@@ -1,0 +1,22 @@
+<ion-tabs class="tabs-striped  tabs-icon-top tabs-background-stable tabs-color-assertive-900" data-ink-opacity=".35" >
+	<ion-tab class="menu-about_us" title="{{ 'About Us' | translate }}" icon-off="ion-ios-glasses" icon-on="ion-ios-glasses" ui-sref="film_indonesia_2018.about_us" >
+		<ion-nav-view animation="none" name="film_indonesia_2018-about_us"></ion-nav-view>
+	</ion-tab>
+	<ion-tab class="menu-rate_this_app" title="{{ 'Rate This App' | translate }}" icon-off="ion-thumbsup" icon-on="ion-thumbsup" ng-click="openURL('market://details?id=com.nasasoda.bstrdproject.filmindonesia2018')" >
+	</ion-tab>
+	<ion-tab class="hide menu-about_us" title="About Us"  ui-sref="film_indonesia_2018.about_us"  >
+		<ion-nav-view animation="none" name="film_indonesia_2018-about_us"></ion-nav-view>
+	</ion-tab>
+	<ion-tab class="hide menu-admob" title="Admob Code"  ui-sref="film_indonesia_2018.admob"  >
+		<ion-nav-view animation="none" name="film_indonesia_2018-admob"></ion-nav-view>
+	</ion-tab>
+	<ion-tab class="hide menu-dashboard" title="Dashboard"  ui-sref="film_indonesia_2018.dashboard"  >
+		<ion-nav-view animation="none" name="film_indonesia_2018-dashboard"></ion-nav-view>
+	</ion-tab>
+	<ion-tab class="hide menu-menu_one" title="Menu One"  ui-sref="film_indonesia_2018.menu_one"  >
+		<ion-nav-view animation="none" name="film_indonesia_2018-menu_one"></ion-nav-view>
+	</ion-tab>
+	<ion-tab class="hide menu-slide_tab_menu" title="Menu"  ui-sref="film_indonesia_2018.slide_tab_menu"  >
+		<ion-nav-view animation="none" name="film_indonesia_2018-slide_tab_menu"></ion-nav-view>
+	</ion-tab>
+</ion-tabs>
